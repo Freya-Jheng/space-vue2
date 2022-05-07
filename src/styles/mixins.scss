@@ -1,0 +1,18 @@
+@mixin flex ($direction, $justify-content, $align-item) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-content;
+  align-items: $align-item;
+}
+
+@mixin grid ($grid-columns, $grid-rows) {
+  display: grid;
+  grid-template-columns: $grid-columns;
+  grid-template-rows: $grid-rows;
+}
+
+@mixin pad {
+  @media(min-width:768px){
+    @content;
+  }
+}

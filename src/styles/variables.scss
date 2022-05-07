@@ -1,0 +1,12 @@
+$white: #fff;
+$light-grey-1: #D0D6F9;
+$light-dark: #0B0D17;
+$light-grey-2: #979797;
+
+:root {
+  --main-font-color: #{$white};
+  --sub-font-color: #{$light-grey-1};
+  --explore-color: #{$light-dark};
+  --border-grey: #{$light-grey-2};
+  --item-background-color: #{$light-dark};
+}
